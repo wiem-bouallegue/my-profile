@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .profile-section {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 25px;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  h1, h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #2c3e50;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 4px solid #3498db;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  ul li {
+    display: inline-block;
+  }
+  
+  ul li a i {
+    font-size: 26px;
+    color: #555;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  ul li a i:hover {
+    color: #3498db;
+    transform: scale(1.2);
+  }
+  
+  /* Specific section backgrounds if you like */
+  #intro-section {
+    background-color: #fdfdfd;
+  }
+  
+  #about-section {
+    background-color: #f9f9f9;
+  }
+  
+  #social-section {
+    background-color: #fdfdfd;
+  }
+  
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
